@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from api.utils import preprocess_image, format_predictions
 
-
+#
 def test_preprocess_image():
     test_image = Image.new('RGB', (100, 100), color='red')
 
